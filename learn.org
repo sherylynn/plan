@@ -1,2 +1,12 @@
 * learn org-mode
 ** C-c C-t add todo to org list toggle
+* orgmode中可以框选一个elisp段落，<C-c>'后进行高亮编辑,但是要在emacs-lisp里面
+
+;;呼唤方式为<s然后tab 然后键入emacs-lisp，然后里面的代码就是开启了高亮后的代码了
+** 测试一下
+(setq fuckmessage (+ 1 1))
+** 看到第二集第十分钟
+#+BEGIN_SRC emacs-lisp
+(setq fuckmessage (+ 2 2))
+#+END_SRC
+** melpa.org下载插件
